@@ -1,4 +1,4 @@
--- Consultas para visualizar dados das tabelas.
+-- Consultas para visualizar dados das tabelas
 
 select * from table01 a
 where to_char(a.dt_exame, 'YYYY') = '2022';
